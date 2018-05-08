@@ -40,7 +40,7 @@ ul {
 }
 .box li{
   display: inline-block;
-  margin: 6px;
+  margin: 4px;
   list-style: none;
   color: white;
 
@@ -48,6 +48,12 @@ ul {
 .box li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
-  cursor: pointer;
+  font-size: 30px;
   {
+.box li:hover {
+   cursor:pointer;
+}
+.box p2{
+  text-align: justify;
+  color: black;
+}
