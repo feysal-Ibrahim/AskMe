@@ -55,11 +55,11 @@ ul {
 }
 .box p2{
   text-align: justify;
-  color: black;
+  color: yellow;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right {
-    width: 100%;
+    width: 50%;
   }
 }
