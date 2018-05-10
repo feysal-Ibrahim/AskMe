@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/city.jpg);
+  background-image: url(../images/nairobi.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .box {
-  width: 450px;
+  width: 400px;
+  height: 400px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   text-align: center;
@@ -57,9 +58,16 @@ ul {
   text-align: justify;
   color: yellow;
 }
+.center  {
+  display: inline-block;
+  margin: 0px;
+  list-style: none;
+  color: green;
+  float: right;
+}
+
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 50%;
   }
-}

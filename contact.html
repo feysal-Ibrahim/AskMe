@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/scripts.js"></script>
+<style>
+body {background-image: url(images/people.jpeg);}
+body {background-repeat: no-repeat;}
+body {background-size: cover;}
+body h1 {color: red;}
+</style>
     <title>contact</title>
   </head>
   <body>
-     <h2><a href="./index.html">back home</a></h2>
-    <h1>contact</h1>
+       <h1 style="font-size:90%;"><a href="./index.html">back home</a></h1>
 
-  </body>
-  
+
+  <h2 style="font-size:210%;"> Contact Us </h2>
+<p style="color:black;">Complete the form below and i will respond QUICKLY.<br> I will even provide you with a ticket number to track the status of your request!</br></p>
+<div class="container">
+     <div class="row">
+       <div class="col-md-6">
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="new-first-name">first name</label>
+              <input type="text"  class="form-control" id="new-first-name">
+              <label for="new-last-name">last name</label>
+              <input type="text" class="form-control" id="new-last-name" >
+              <label for="new-email">email</label>
+              <input type="text" class="form-control"id="new-email"placeholder="your email">
+              <label for="comment">comment</label>
+              <input type="text" class="form-control" id="new-comment" placeholder="your comment">
+            </div>
+
+          <button type="submit" class="btn">submit</button>
+          </form>
+         <ul id="contacts">
+         </ul>
+       </div>
+
+       <div class="col-md-6">
+         <div id="show-contact">
+
+
+
+         </div>
+
+       </div>
+     </div>
+   </div>
+
+
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
