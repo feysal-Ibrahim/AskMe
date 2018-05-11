@@ -1,9 +1,47 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/nairobi.webp);
+*{
+  margin: auto;
+  padding: auto;
+}
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/view.jpg);
+  background-repeat:no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
+}
+.center  {
+  margin-top: 30px;
+  list-style: none;
+  color: green;
+  float: right;
+}
+.center li {
+  display: inline-block;
+}
+.center li a{
+  color: red;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+}
+.center li a:hover{
+  border: 1px solid white;
+}
+.willy a {
+  border: 1px solid white;
+}
+.logo img{
+  width:150px;
+  height: auto;
+  float: left;
+  border-radius: 50%;
+}
+body{
+  font-family: monospace;
+
+}
+.row {
+  max-width: 1200px;
+  margin: auto;
 }
 .box {
   width: 400px;
@@ -17,57 +55,42 @@ body {
   font-family: 'Century Gothic',sans-serif;
 }
 .box-img{
-        height: 200px;
-        width: 200px;
-        text-align: center;
-        border-radius: 50%;
-}
-.box h1{
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
-}
-.box h2{
-  font-size: 25px;
-  letter-spacing: 3px;
-  font-weight: 100;
-}
-.box p{
-  text-align: justify;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-.box li{
-  display: inline-block;
-  margin: 4px;
-  list-style: none;
-  color: white;
+  height: 200px;
+         width: 200px;
+         text-align: center;
+         border-radius: 80%;
 
-}
-.box li a{
-  color: white;
+        }
+.button li {
+  color: red;
   text-decoration: none;
-  font-size: 30px;
-  {
-.box li:hover {
-   cursor:pointer;
-}
-.box p2{
-  text-align: justify;
+  padding: 10px 25px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+  border: 1px solid white;
+  }
+#hi {
   color: yellow;
 }
-.center  {
-  display: inline-block;
-  margin: 0px;
-  list-style: none;
-  color: green;
-  float: right;
+#h2{
+  color: pink;
 }
+#p {
+  color: white;
+}
+#name{
+  color: white;
+}
+.icon li a{
+  color: red;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+}
+.icon li{
+  display: inline-block;
+  margin: 4px;
 
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 50%;
-  }
+  color: white;
+  {
