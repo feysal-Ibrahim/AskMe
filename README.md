@@ -13,7 +13,7 @@ Online Platforms,Fb https://www.facebook.com/addictivefazman,
                 linkedln: https://www.linkedin.com/in/feisal-ibrahim-05594615b/
 
 ### License
-*Copyright Feisal 2018 **https://moringaschool.com/**
+*Copyright Feisal 2018 ****
 
 
 
